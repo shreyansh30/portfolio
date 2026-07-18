@@ -1,6 +1,6 @@
 # Shreyansh Kumar | Portfolio
 
-![Portfolio Preview](./public/og-image.png)
+![Portfolio Preview](./public/portfolio.png)
 
 A modern personal portfolio website showcasing my experience, projects, skills, and journey as a **Data Engineer and Software Developer**.
 
