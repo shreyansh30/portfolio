@@ -1,29 +1,30 @@
 import Section from "./Section";
 import { ExternalLink } from "lucide-react";
 import { useRef, useState } from "react";
+import { publicUrl } from "../utils/publicUrl";
 
 const certificates = [
   {
     title: "Accenture Internship Completion",
-    image: "/certificates/accenture.png",
-    pdf: "/certificates/accenture-internship.png",
-    preview: "/certificates/accenture-internship.png",
+    image: publicUrl("certificates/accenture.png"),
+    pdf: publicUrl("certificates/accenture-internship.png"),
+    preview: publicUrl("certificates/accenture-internship.png"),
   },
   {
     title: "Red Hat System Administration",
-    image: "/certificates/redhat.png",
+    image: publicUrl("certificates/redhat.png"),
     url: "https://www.credly.com/badges/429f7286-79be-454a-ba2b-2cbbcd20f205/public_url",
   },
   {
     title: "SAP Business Data Cloud",
-    image: "/certificates/sap.png",
+    image: publicUrl("certificates/sap.png"),
     url: "https://www.credly.com/badges/c89c83bc-88b2-409c-bfa1-ebcf02d0e76e/public_url",
   },
   {
     title: "Deloitte GenW.AI Explorer",
-    image: "/certificates/deloitte.png",
-    pdf: "/certificates/deloitte-hacksplosion.png",
-    preview: "/certificates/deloitte-hacksplosion.png",
+    image: publicUrl("certificates/deloitte.png"),
+    pdf: publicUrl("certificates/deloitte-hacksplosion.png"),
+    preview: publicUrl("certificates/deloitte-hacksplosion.png"),
   },
 ];
 

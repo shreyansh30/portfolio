@@ -2,6 +2,7 @@ import Section from "./Section";
 import { useState } from "react";
 import { ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
+import { publicUrl } from "../utils/publicUrl";
 
 
 
@@ -110,7 +111,7 @@ const Experience = () => {
       {/* Certificate Preview */}
       <div className="flex-1 overflow-y-auto">
         <img
-          src="/certificates/accenture-internship.png"
+          src={publicUrl("certificates/accenture-internship.png")}
           alt="Accenture Internship Certificate"
           className="w-full"
         />
@@ -124,7 +125,7 @@ const Experience = () => {
 
         <div className="flex gap-3">
           <a
-            href="/certificates/accenture-internship.pdf"
+            href={publicUrl("certificates/accenture-internship.pdf")}
             download
             className="
               px-4 py-2

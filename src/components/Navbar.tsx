@@ -1,5 +1,6 @@
 // components/Navbar.tsx
 import { useEffect, useState } from "react";
+import { publicUrl } from "../utils/publicUrl";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -47,7 +48,7 @@ const Navbar = () => {
     "
   >
     <img
-      src="/profile.jpeg"
+      src={publicUrl("profile.jpeg")}
       alt="Shreyansh Kumar"
       className="h-full w-full object-cover"
     />
@@ -91,7 +92,7 @@ const Navbar = () => {
     >
 
       <img
-        src="/profile.jpeg"
+        src={publicUrl("profile.jpeg")}
         alt="Shreyansh Kumar"
         className="
           h-full
